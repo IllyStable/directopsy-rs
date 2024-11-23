@@ -1,5 +1,5 @@
 [package]
-name = "list-rs"
+name = "list"
 description = "Command-line tool to quickly get a list of files in a directory in a human-readable format"
 version = "0.0.1"
 edition = "2021"
