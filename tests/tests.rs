@@ -1,7 +1,7 @@
     #[test]
     fn test_pathbuf_to_foundfile() {
         use std::path::PathBuf;
-        use list::FoundFile;
+        use directopsy::FoundFile;
 
          let file: FoundFile = PathBuf::from("./foo.txt").into(); 
 
