@@ -1,5 +1,5 @@
 [package]
-name = "list"
+name = "directopsy"
 description = "Command-line tool to quickly get a list of files in a directory in a human-readable format"
 version = "0.0.1"
 edition = "2021"
@@ -15,4 +15,4 @@ exclude = ["/tests"]
 clap = { version = "4.5.21", features = ["derive"] }
 
 [[bin]]
-name = "list"
+name = "directopsy"
