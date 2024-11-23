@@ -2,6 +2,13 @@
 name = "list"
 version = "0.0.1"
 edition = "2021"
+authors = ["Illy <illystable.champs@gmail.com>"]
+repository = "https://github.com/IllyStable/list-rs"
+license = "MIT"
+categories = ["command-line-utilities"]
+keywords = ["utility", "files", "command"]
+exclude = ["/tests"]
+
 
 [dependencies]
 clap = { version = "4.5.21", features = ["derive"] }
