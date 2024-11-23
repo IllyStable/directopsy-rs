@@ -1,1 +1,1 @@
-# Simple alternative to window's `ls` made in Rust!
+# Simple alternative to Windows' `ls` made in Rust!
