@@ -36,7 +36,7 @@ fn main() {
         }).collect();
     }
 
-    let longest_name_length = paths.iter().map(|file| file.name.len()).max().unwrap_or("File name".len());
+    let longest_name_length = paths.iter().map(|file| file.name.len()).max().unwrap_or(0).max("File name".len());
 
     let mut row = "┌".to_string();
 
@@ -49,7 +49,7 @@ fn main() {
 
     row = "│File name".to_string();
 
-    row += &" ".repeat(longest_name_length + 4 - row.len());
+    row += &" ".repeat(longest_name_length + 1 - "File name".len());
     row += "│ ";
     row += "Type │ ";
 

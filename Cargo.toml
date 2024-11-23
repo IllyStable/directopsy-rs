@@ -1,7 +1,7 @@
 [package]
 name = "directopsy"
 description = "Command-line tool to quickly get a list of files in a directory in a human-readable format"
-version = "0.0.1"
+version = "0.0.2"
 edition = "2021"
 authors = ["Illy <illystable.champs@gmail.com>"]
 repository = "https://github.com/IllyStable/list-rs"
