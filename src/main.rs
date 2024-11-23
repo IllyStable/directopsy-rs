@@ -1,5 +1,5 @@
 use std::fs;
-use list::foundfile::{FoundFile, FileType};
+use directopsy::foundfile::{FoundFile, FileType};
 use clap::Parser;
 
 #[derive(clap::ValueEnum, Clone, Copy, Debug, PartialEq, Eq)]
